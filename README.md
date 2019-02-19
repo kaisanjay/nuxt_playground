@@ -1,4 +1,4 @@
-# simple-blog
+# nuxt playground
 
 > My astonishing Nuxt.js project
 
