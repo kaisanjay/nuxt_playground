@@ -1,18 +1,14 @@
 <template>
   <section class="container">
     <h1>hello</h1>
-    <a href="/users">users</a>
-    <nuxt-link to="/users">userss</nuxt-link>
+    <a href="/products">products</a>
+    <nuxt-link to="/products">products</nuxt-link>
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 
 export default {
-  components: {
-    Logo
-  }
 }
 </script>
 
