@@ -3,6 +3,8 @@
     <h1>hello</h1>
     <a href="/products">products</a>
     <nuxt-link to="/products">products</nuxt-link>
+    
+    <button @click="$router.push('/products')" style="display: block; color: red;">GO TO products</button>
   </section>
 </template>
 
