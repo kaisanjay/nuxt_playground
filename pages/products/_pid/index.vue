@@ -6,3 +6,13 @@
         </h1>
     </div>
 </template>
+
+<script>
+export default {
+    validate(data) {
+        console.log(data)
+        return data.params.pid === '1'
+    }
+}
+</script>
+
